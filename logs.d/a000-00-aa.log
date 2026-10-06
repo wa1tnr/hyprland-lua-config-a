@@ -1,0 +1,33 @@
+Tue  6 Oct 13:29:48 UTC 2026
+
+creation
+
+ $ ls
+git-util  hyprland  NOTHING.HERE.YET  README.md  sway
+
+ $ /bin/pwd
+../Git/hyprland-lua-config-a
+
+ $ ./git-util/makebranch.sh second
+Switched to a new branch 'second'
+[second 1857a4c] second
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ $ ./git-util/makebranch.sh third
+Switched to a new branch 'third'
+[third ab23f06] third
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ $ ./git-util/makebranch.sh fourth
+Switched to a new branch 'fourth'
+[fourth 8339009] fourth
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ $ ./git-util/justmake.sh dvlp-aa # break ..
+ # .. break the progression for clean appearance for first commit in this very branch
+Switched to a new branch 'dvlp-aa'
+
+ $  # now proceed as usual.
+
+end.
+
